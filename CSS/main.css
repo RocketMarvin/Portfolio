@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16em;
+}
+
+div{
+    color: white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+ a {
+    padding-left: 16px ;
+ }
+
+ .hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: beige;
+    background-blend-mode: lighten;
+ }
+
+ .About{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: beige;
+    background-blend-mode: lighten;
+ }
+ 
+
+
+.card-row{
+    display: flex;
+    gap: 25px;
+    height: 80vh;
+}
+
+ .card {
+    width: 30rem;
+    background-color: lightgray;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    height: 25rem;
+ }
+
+ .card img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    height: 60%;
+ }
+
+ .card h3 {
+    padding: 0 15px;
+ }
+ 
+ .card p {
+    padding: 0 15px;
+ }
+     
+ .card a {
+    padding-left: 15px;
+ }
+
+ .card2 {
+    width: 30rem;
+    background-color: lightgray;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    height: 25rem;
+ }
+
+ .card2 h3 {
+   padding: 0 15px;
+}
+
+.card2 p {
+   padding: 0 15px;
+}
+    
+.car2d a {
+   padding-left: 15px;
+  
+}
+
+.card2RM{
+   border-top: 15px;
+}
+
+ .card2 img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    height: 60%;
+ }
+
+ .card3 {
+    width: 30rem;
+    background-color: lightgray;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    height: 25rem;
+ }
+ .card3 img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    height: 60%;
+ }
+
+ .recent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 0;
+ }
+
+ .Card-Row3{
+   display: flex;
+   flex-direction: column;
+    gap: 25px;
+    background-color: beige;
+    background-blend-mode: lighten;
+ }
+ 
+ .col3-1 {
+  padding-left: 520px;
+  padding-top: 30px;
+}
+.col3-2 {
+   padding-left: 520px;
+   padding-top: 30px;
+}
+.col3-3 {
+   padding-left: 520px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+.Pong{
+   display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    align-items: center;
+    height: 120vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: beige;
+    background-blend-mode: lighten;
+}
+
+.Tankers{
+   display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    align-items: center;
+    height: 120vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: beige;
+    background-blend-mode: lighten;
+}
+
+.Racers{
+   display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    align-items: center;
+    height: 50vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: beige;
+    background-blend-mode: lighten;
+}
+.ImagesRacers{
+  padding-left: 350px;
+  background-color: beige;
+  background-blend-mode: lighten;
+}
