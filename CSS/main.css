@@ -3,6 +3,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    background-color: beige;
 }
 
 header {
@@ -133,13 +134,45 @@ nav a{
     padding: 6rem 0;
  }
 
- .Card-Row3{
+ #project-main{
+   background-color: beige;
+   padding-top: 50px;
+ }
+
+ #project-title{
+   display: flex;
+   justify-content: center;
+   margin: 0px;
+   margin-bottom: 20px;
+ }
+
+#project-holder{
+   border: solid beige;
+   border-radius: 10px;
+   padding: 20px;
+   gap: 50px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.project-card{
+   color: black;
+   background-color: bisque;
+   width: 400px;
+   border-radius: 10px;
+   padding: 15px;
+   border: solid bisque;
    display: flex;
    flex-direction: column;
-    gap: 25px;
-    background-color: beige;
-    background-blend-mode: lighten;
- }
+   align-items: center;
+}
+.project-card img{
+   width: 300px;
+   height: 150px;
+   margin: 1%;
+   border-radius: 10px;
+}
  
  .col3-1 {
   padding-left: 520px;
@@ -160,11 +193,20 @@ nav a{
     flex-direction: column;
     padding-top: 20vh;
     align-items: center;
+    text-align: center;
     height: 120vh;
     padding-left: 100px;
     padding-right: 100px;
     background-color: beige;
     background-blend-mode: lighten;
+}
+.Pong img{
+   width: 600px;
+   height: 300px;
+   padding: 5px;
+   border-radius: 10px;
+   border: solid bisque;
+   background-color: bisque;
 }
 
 .Tankers{
@@ -173,11 +215,66 @@ nav a{
     padding-top: 20vh;
     padding-bottom: 20vh;
     align-items: center;
+    text-align: center;
     height: 120vh;
     padding-left: 100px;
     padding-right: 100px;
     background-color: beige;
     background-blend-mode: lighten;
+}
+.Tankers img{
+   width: 600px;
+   height: 300px;
+   padding: 5px;
+   border-radius: 10px;
+   border: solid bisque;
+   background-color: bisque;
+}
+
+.Runandgun{
+   display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    align-items: center;
+    text-align: center;
+    height: 120vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: beige;
+    background-blend-mode: lighten;
+    gap: 30px  ;
+}
+.Runandgun img{
+   width: 600px;
+   height: 300px;
+   padding: 5px;
+   border-radius: 10px;
+   border: solid bisque;
+   background-color: bisque;
+}
+
+.bunkerDefender{
+   display: flex;
+   flex-direction: column;
+   padding-top: 20vh;
+   padding-bottom: 20vh;
+   align-items: center;
+   text-align: center;
+   height: 120vh;
+   padding-left: 100px;
+   padding-right: 100px;
+   background-color: beige;
+   background-blend-mode: lighten;
+   gap: 30px  ;
+}
+.bunkerDefender img{
+   width: 600px;
+   height: 300px;
+   padding: 5px;
+   border-radius: 10px;
+   border: solid bisque;
+   background-color: bisque;
 }
 
 .Racers{
@@ -185,16 +282,41 @@ nav a{
     flex-direction: column;
     padding-top: 10vh;
     align-items: center;
-    height: 50vh;
+    text-align: center;
+    height: 30vh;
     padding-left: 100px;
     padding-right: 100px;
     background-color: beige;
     background-blend-mode: lighten;
 }
-.ImagesRacers{
-  padding-left: 350px;
-  background-color: beige;
-  background-blend-mode: lighten;
+.Racers img{
+   width: 600px;
+   height: 300px;
+   padding: 5px;
+   border-radius: 10px;
+   border: solid bisque;
+   background-color: bisque;
+}
+
+.Dictu{
+   display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    align-items: center;
+    text-align: center;
+    height: 30vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: beige;
+    background-blend-mode: lighten;
+}
+.Dictu img{
+   width: 600px;
+   height: 300px;
+   padding: 5px;
+   border-radius: 10px;
+   border: solid bisque;
+   background-color: bisque;
 }
 
 .main{
