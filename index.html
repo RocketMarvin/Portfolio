@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MarvinJonkerPortfolio</title>
     <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
-        <div class="Brand">
+    <header class="d-flex justify-content-between">
+        <div class="Brand text-light">
             <h3>Marvin Jonker</h3>
 
         </div>
@@ -22,37 +24,47 @@
             <a href="./index3.html">My Projects</a>
             <a href="./ContactMe.html">Contact Me </a>
         </nav>
-
     </header>
-    <main>
+    <main class="mainPage">
         <section class="hero">
             <h1>I'm Marvin, and welcome to my Portfolio Site </h1>
         </section>
-        <section class="About">
-            <h1>Projects</h1>
-            <div class="card-row">
-                <div class="card">
-                    <img src="Img/Pong .png" alt="">
-                    <h3>Pong With a Twist</h3>
-                    <p>This was my first project where I made a pong game with some of my own twists</p>
-                    <a href="./Pong.html">Read More...</a>
+        <div class="container pb-5">
+            <div class="row g-4 mb-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="frontCard" style="height: 350px;">
+                        <img src="Img/dezijl1.png" class="cardImgTop" alt="..." height="50%">
+                        <div class="card-body">
+                            <h3>DeepDive De Zijlen</h3>
+                            <p>This was a group project for De zijlen in a deep dive week</p>
+                            <a href="DeZijlen.html">Read More...</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="card2">
-                    <img src="Img/TankGame.png" alt="">
-                    <h3>Tankers</h3>
-                    <p>This was my second project where I made a Tank game</p>
-                    <a class="card2RM" href="./Tankers.html">Read More...</a>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="frontCard" style="height: 350px;">
+                        <img src="Img/bunker1.png" class="cardImgTop" alt="..." height="50%">
+                        <div class="card-body">
+                            <h3>Apocalypse bunker</h3>
+                            <p>This project is stil a WIP</p>
+                            <br>
+                            <a href="bunkergame.html">Read More...</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="card3">
-                    <img src="Img/raceGame.png" alt="">
-                    <h3>Racers Destiny</h3>
-                    <p>This was my most recent project where I made a race game</p>
-                    <a class="card3RM" href="./RacersDestiny.html">Read More...</a>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="frontCard" style="height: 350px;">
+                        <img src="Img/dictu.png" class="cardImgTop" alt="..." height="50%">
+                        <div class="card-body">
+                            <h3>DICTU DeepDive24</h3>
+                            <p>This was a group project for DICTU I made while a deep dive</p>
+                            <a href="./RacersDestiny.html" class="projectPageLink">Read More...</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
-   
 </body>
 
 </html>

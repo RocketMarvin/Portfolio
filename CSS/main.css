@@ -1,154 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    background-color: beige;
+body {
+   font-family: 'Montserrat', sans-serif;
+   margin: 0;
+
 }
 
 header {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 16em;
-}
-
-div{
-    color: white;
-}
-
-nav a{
-    color: white;
-    text-decoration: none;
-}
-
- a {
-    padding-left: 16px ;
- }
-
- .hero{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    background-color: beige;
-    background-blend-mode: lighten;
- }
-
- .About{
+   background-color: black;
    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: beige;
-    background-blend-mode: lighten;
- }
- 
-
-
-.card-row{
-    display: flex;
-    gap: 25px;
-    height: 80vh;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 16em;
 }
 
- .card {
-    width: 30rem;
-    background-color: lightgray;
-    border-radius: 15px;
-    padding-bottom: 20px;
-    height: 25rem;
- }
+nav a {
+   color: white;
+   text-decoration: none;
+}
 
- .card img {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    height: 60%;
- }
+a {
+   padding-left: 16px;
+}
 
- .card h3 {
-    padding: 0 15px;
- }
- 
- .card p {
-    padding: 0 15px;
- }
-     
- .card a {
-    padding-left: 15px;
- }
+.mainPage {
+   background-color: #21D4FD;
+   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
 
- .card2 {
-    width: 30rem;
-    background-color: lightgray;
-    border-radius: 15px;
-    padding-bottom: 20px;
-    height: 25rem;
- }
+.hero {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 80vh;
+   background-blend-mode: lighten;
+}
 
- .card2 h3 {
+.card-row {
+   display: flex;
+   gap: 25px;
+   height: 80vh;
+}
+
+.mycard {
+   width: 30rem;
+   background-color: lightgray;
+   border-radius: 15px;
+   padding-bottom: 20px;
+   height: 25rem;
+}
+
+.mycard h3 {
    padding: 0 15px;
 }
 
-.card2 p {
+.mycard p {
    padding: 0 15px;
 }
-    
-.car2d a {
+
+.mycard a {
    padding-left: 15px;
-  
+
 }
 
-.card2RM{
-   border-top: 15px;
+.mycard img {
+   width: 100%;
+   border-radius: 15px 15px 0px 0px;
+   height: 60%;
 }
 
- .card2 img {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    height: 60%;
- }
+.recent {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 6rem 0;
+}
 
- .card3 {
-    width: 30rem;
-    background-color: lightgray;
-    border-radius: 15px;
-    padding-bottom: 20px;
-    height: 25rem;
- }
- .card3 img {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    height: 60%;
- }
-
- .recent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 6rem 0;
- }
-
- #project-main{
-   background-color: beige;
+#project-main {
+   background-color: #21D4FD;
+   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
    padding-top: 50px;
- }
+}
 
- #project-title{
+#project-title {
    display: flex;
    justify-content: center;
    margin: 0px;
    margin-bottom: 20px;
- }
+}
 
-#project-holder{
-   border: solid beige;
-   border-radius: 10px;
+#project-holder {
    padding: 20px;
    gap: 50px;
    display: flex;
@@ -156,105 +98,49 @@ nav a{
    justify-content: space-evenly;
 }
 
-.project-card{
+.project-card {
    color: black;
-   background-color: bisque;
+   background-color: #0093E9;
+   background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
    width: 400px;
    border-radius: 10px;
    padding: 15px;
-   border: solid bisque;
+   box-shadow: 0 0 25px 3px rgba(0, 0, 0, 0.5);
    display: flex;
    flex-direction: column;
    align-items: center;
+   text-align: center;
+   justify-content: space-between;
 }
-.project-card img{
+
+.project-card img {
    width: 300px;
    height: 150px;
    margin: 1%;
    border-radius: 10px;
 }
- 
- .col3-1 {
-  padding-left: 520px;
-  padding-top: 30px;
+
+.projectPageLink {
+   text-decoration-style: none;
 }
+
+.col3-1 {
+   padding-left: 520px;
+   padding-top: 30px;
+}
+
 .col3-2 {
    padding-left: 520px;
    padding-top: 30px;
 }
+
 .col3-3 {
    padding-left: 520px;
    padding-top: 30px;
    padding-bottom: 30px;
 }
 
-.Pong{
-   display: flex;
-    flex-direction: column;
-    padding-top: 20vh;
-    align-items: center;
-    text-align: center;
-    height: 120vh;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: beige;
-    background-blend-mode: lighten;
-}
-.Pong img{
-   width: 600px;
-   height: 300px;
-   padding: 5px;
-   border-radius: 10px;
-   border: solid bisque;
-   background-color: bisque;
-}
-
-.Tankers{
-   display: flex;
-    flex-direction: column;
-    padding-top: 20vh;
-    padding-bottom: 20vh;
-    align-items: center;
-    text-align: center;
-    height: 120vh;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: beige;
-    background-blend-mode: lighten;
-}
-.Tankers img{
-   width: 600px;
-   height: 300px;
-   padding: 5px;
-   border-radius: 10px;
-   border: solid bisque;
-   background-color: bisque;
-}
-
-.Runandgun{
-   display: flex;
-    flex-direction: column;
-    padding-top: 20vh;
-    padding-bottom: 20vh;
-    align-items: center;
-    text-align: center;
-    height: 120vh;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: beige;
-    background-blend-mode: lighten;
-    gap: 30px  ;
-}
-.Runandgun img{
-   width: 600px;
-   height: 300px;
-   padding: 5px;
-   border-radius: 10px;
-   border: solid bisque;
-   background-color: bisque;
-}
-
-.bunkerDefender{
+.Content {
    display: flex;
    flex-direction: column;
    padding-top: 20vh;
@@ -264,69 +150,39 @@ nav a{
    height: 120vh;
    padding-left: 100px;
    padding-right: 100px;
-   background-color: beige;
-   background-blend-mode: lighten;
-   gap: 30px  ;
+   background-color: #21D4FD;
+   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+   gap: 30px;
 }
-.bunkerDefender img{
+
+.Content img {
    width: 600px;
    height: 300px;
    padding: 5px;
    border-radius: 10px;
-   border: solid bisque;
-   background-color: bisque;
 }
 
-.Racers{
+.main {
    display: flex;
-    flex-direction: column;
-    padding-top: 10vh;
-    align-items: center;
-    text-align: center;
-    height: 30vh;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: beige;
-    background-blend-mode: lighten;
-}
-.Racers img{
-   width: 600px;
-   height: 300px;
-   padding: 5px;
-   border-radius: 10px;
-   border: solid bisque;
-   background-color: bisque;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   padding-left: 100px;
+   padding-right: 100px;
+   background-color: #21D4FD;
+   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 }
 
-.Dictu{
-   display: flex;
-    flex-direction: column;
-    padding-top: 10vh;
-    align-items: center;
-    text-align: center;
-    height: 30vh;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: beige;
-    background-blend-mode: lighten;
-}
-.Dictu img{
-   width: 600px;
-   height: 300px;
-   padding: 5px;
-   border-radius: 10px;
-   border: solid bisque;
-   background-color: bisque;
+.card-body {
+   background-color: #0093E9;
+   background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
 }
 
-.main{
-   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: beige;
-    background-blend-mode: lighten;
- }
+.cardImgTop{
+   width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
